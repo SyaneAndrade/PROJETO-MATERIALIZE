@@ -1,0 +1,63 @@
+/* 
+Criador: Jessiane Andrade e Joel Andrade
+Ano : 2017 
+*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+/* Alinhar todo o conteudo das div de serviço, sobre nos e contado */
+.opcao{
+    align-self: center;
+    text-align: center;
+}
+
+h1{
+    align-content: center;
+}
+
+/* Aumentar o tamanho dos icones e mudar a cor */
+.material-icons{
+    align-content:center;
+    font-size: 100px;
+    color: #50858B;
+}
+
+/* Tirar o espaçamento entre a seção de serviços e sobre nós */
+.row{
+    margin-bottom: 0;
+}
+
+/* Consertando um bug do container terminar antes do conteudo */
+.container {
+    width: 100%;
+}
+
+.envie{
+    margin-left: 10px; 
+}
+
+/* Personalizando na mão */
+.about{
+    background-color: #b2dfdb !important;
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.active {
+    background-color: #00796b;
+}
+
+.cont-footer {
+    padding: 15px;
+}

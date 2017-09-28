@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Criador: Jessiane Andrade e Joel Andrade
+Ano : 2017
+Ferramentas:Framework Materialize, HTML, CSS, JQUERY 
+-->
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <title>Materialize Project</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Barra de navegação-->
+    <main>
+        <div class="navbar-fixed scrollpsy">
+            <nav>
+                <div class="nav-wrapper teal accent-4">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#serviços">Serviços</a></li>
+                        <li><a href="#about">Sobre nós</a></li>
+                        <li><a href="#faleconosco">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--Fim da Barra de navegação-->
+        <!--Barra de navegação mobile-->
+        <div class="nav-wrapper scrollpsy">
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#faleconosco">Fale Conosco</a></li>
+            </ul>
+        </div>
+        <!-- Fim da Barra de navegação mobile -->
+        <!-- seção que utiliza o scrollspy-->
+        <div id="home" class="scrollspy">
+            <!--Inicio do slide-->
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/1">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/2">
+                        <!-- random image -->
+                        <div class="caption left-align">
+                            <h3>Left Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/3">
+                        <!-- random image -->
+                        <div class="caption right-align">
+                            <h3>Right Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/4">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--Fim do slide-->
+        </div>
+        <!-- Inicio Serviços-->
+        <div id="serviços" class="row section opcao scrollspy center-align teal lighten-5">
+            <h1> Serviços </h1>
+            <div class="col m4 l4 s12"><i class=" col m12 l12 s12 material-icons ">directions_bus</i>
+                <h2>Turismo</h2>
+            </div>
+            <div class="col m4 l4 s12"><i class=" col m12 l12 s12 material-icons">favorite</i>
+                <h2>Vida</h2>
+            </div>
+            <div class="col m4 l4 s12"><i class=" col m12 l12 s12 material-icons ">motorcycle</i>
+                <h2>Motociclista</h2>
+            </div>
+        </div>
+        <!-- Fim dos Serviços-->
+        <!--Inicio do Sobre nós-->
+        <div class="row about">
+            <div id="about" class="col m12 s12 opcao section scrollspy">
+                <h1>Sobre nós </h1>
+                <article class="col m12 s12 center-align">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue iaculis magna, dictum tempus lectus convallis nec. Nam
+                    tempus ligula ante, eu mattis neque feugiat non. Phasellus at egestas massa. Fusce gravida congue leo,
+                    sed ornare neque pulvinar in. Sed malesuada a libero eu egestas. Vestibulum vitae nulla at massa volutpat
+                    semper in sit amet metus. Morbi iaculis vulputate ornare. Vivamus hendrerit rhoncus lacus eget sodales.
+                    Curabitur ac ex vel orci molestie consequat vitae sit amet quam. Aenean faucibus dignissim diam nec scelerisque.
+                    Nam vel rutrum lorem. Sed tincidunt vestibulum est sed euismod. Sed ultricies dui eget tincidunt vehicula.
+                    Nam posuere orci justo, eget pretium eros aliquam vel. Nam ac tincidunt erat. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean scelerisque rutrum eros a placerat.
+                    Proin suscipit id enim sit amet ultricies. Nam ligula velit, placerat sed augue et, porttitor ornare
+                    quam. Pellentesque ut ex a odio ultrices varius. Fusce blandit ipsum magna, ac scelerisque ante fermentum
+                    sit amet. Morbi rhoncus gravida erat, ut tempor mi sollicitudin a. Nam ut laoreet purus. Integer faucibus
+                    vitae arcu sed suscipit. Sed condimentum nisl quis dictum placerat. Vestibulum sagittis, nunc non auctor
+                    finibus, augue felis iaculis ante, quis iaculis ante neque vitae nisl. Mauris imperdiet, ex sit amet
+                    condimentum suscipit, libero sapien faucibus lacus, pharetra hendrerit dolor nibh vel quam. Aenean vulputate
+                    viverra nibh, id cursus nibh vestibulum ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                    posuere cubilia Curae; Phasellus feugiat posuere felis. Aliquam et diam eget elit lobortis pharetra.
+                    Curabitur arcu mi, commodo at iaculis sed, gravida ut mauris. Suspendisse at purus mauris. Aenean dignissim
+                    sem orci, et mollis augue sollicitudin ut. Praesent sollicitudin scelerisque erat non vulputate. Morbi
+                    nisi nunc, faucibus nec nibh in, placerat ultricies enim. In hac habitasse platea dictumst. Mauris porttitor
+                    tempor sem ac lobortis. Vivamus eu odio vitae mauris venenatis tincidunt. Vestibulum bibendum arcu dolor,
+                    eget gravida erat convallis vulputate. In auctor, sem ac elementum faucibus, arcu est egestas elit, ac
+                    consequat velit risus nec quam. Quisque mi felis, vestibulum eu urna a, dictum tempus augue. Phasellus
+                    ac convallis tortor. Suspendisse ac nunc et nulla congue mollis. Donec laoreet congue lacinia. Nam ultrices
+                    imperdiet sapien, a tempor magna luctus venenatis. Morbi ut risus dictum, sodales tellus sit amet, placerat
+                    nulla. Curabitur ac semper elit. Sed at lorem sed quam tristique fringilla in at urna. Nunc volutpat
+                    est ut urna molestie ullamcorper. Mauris et imperdiet urna. Ut tempor condimentum euismod. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Morbi fringilla, elit laoreet convallis tempor, lectus
+                    ex mattis purus, at iaculis magna lectus eu lorem. Interdum et malesuada fames ac ante ipsum primis in
+                    faucibus. Donec finibus feugiat orci sed tristique. Cras odio erat, lacinia nec condimentum ac, laoreet
+                    id eros. Aliquam erat volutpat. Nullam et vulputate diam. Sed iaculis elit in purus rhoncus, non consectetur
+                    ligula fermentum. Vestibulum eleifend nec augue in dapibus. Pellentesque eget tortor quis nulla malesuada
+                    iaculis sed et enim. Fusce vitae odio non dui mollis accumsan in vitae dui. Suspendisse in ultricies
+                    nunc, sed bibendum nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque consectetur
+                    odio et massa luctus commodo. Phasellus luctus eget erat a tempor. Curabitur ultricies velit ac accumsan
+                    tincidunt.
+                </article>
+            </div>
+        </div>
+        <!--Fim do Sobre nós-->
+        <!--Inicio do Fale conosco-->
+        <div id="faleconosco" class="opcao section scrollspy center-align">
+            <h1>Fale Conosco</h1>
+            <div class="row container">
+                <form class="envie col l6">
+                    <div class="row">
+                        <!--Inicio da mensagem-->
+                        <h2>Mensagem</h2>
+                        <div class="input-field col l6 m6 s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Nome</label>
+                        </div>
+                        <div class="input-field col l6 m6 s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_email" type="email" class="validate">
+                            <label for="icon_email" data-error="digite um email valido" data-success="email valido">Email</label>
+                        </div>
+                        <div class="input-field col l12 m12 s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Texto</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light col l6 m6 s6 push-l3 pull-l3 push-s3 pull-s3" type="submit" name="action">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+                    <!--Fim da mensagem-->
+                </form>
+                <!--Informações-->
+                <div class="col s12 m6 l6">
+                    <h2>Informações</h2>
+                    <h3>Telefone </h3>
+                    <h5>(34) 3211 - 8597</h5>
+                    <h3>Email</h3>
+                    <h5>viva@outlook.com</h5>
+                    <h3>Endereço </h3>
+                    <h5>Rua São Salvador, nº 500 </h5>
+                    <h5>Bairro Santa Luzia, São Paulo </h5>
+                    <h5>CEP 1111111 - 111 </h5>
+                </div>
+                <!--Fim Informações-->
+            </div>
+        </div>
+        <!--Inicio do Fale conosco-->
+        <!-- seção que utiliza o scrollspy-->
+    </main>
+    <!--footer-->
+    <footer class="page-footer teal accent-4">
+        <div class="container cont-footer">
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 m4 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container cont-footer">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do footer-->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</body>
+
+</html>
