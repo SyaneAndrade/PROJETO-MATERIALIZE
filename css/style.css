@@ -14,16 +14,25 @@ main {
 
 /* ================ navbar edit ============*/
 nav.color {
-  background: #212121;
+  background: #f0f4c3;
 }
 .menu-link {
-  color : white;
+  color : #212121;
   transition: background 1s , color 1s;
 }
 .menu-link:hover {
   color : white;
-  background:#424242;
+  background:#bdbdbd;
   border-radius: 2px;
+}
+.logo-img {
+  height: 50px;
+  width: 180px;
+  display: block;
+  background: url('../image/viva.png') no-repeat;
+  background-size: contain;
+  color: transparent;
+  margin: 5px 40px;
 }
 
 /* ================ Slide edit ============*/
@@ -103,7 +112,7 @@ h1{
 
 /* Personalizando na mão */
 .about{
-  background-color: #b2dfdb !important;
+
   width: 100%;
 }
 
@@ -128,7 +137,7 @@ form {
 /* label focus color */
 .input-field input[type=text]:focus + label {
  color: #000;
- background: none;
+ background: none;2
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
@@ -172,11 +181,8 @@ form {
   background: #616161;
 }
 .servicos-bg {
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(40deg,#9e9e9e, #eeeeee); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(40deg,#9e9e9e, #eeeeee); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(40deg,#9e9e9e, #eeeeee); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(40deg, #9e9e9e, #eeeeee); /* Standard syntax */
+  background: #eeeeee; /* For browsers that do not support gradients */
+
 }
 
 /**** mensagem edit ****/
